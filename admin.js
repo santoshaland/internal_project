@@ -16,8 +16,8 @@ router.get("/", function(req, res){
     res.send("All Admin");
 });
 
-router.get("/:No", function(req, res){
-    res.send("Admin No " + req.params.No);
+router.get("/", function(req, res){
+    res.send("All Admin");
 });
 
 
